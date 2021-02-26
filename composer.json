@@ -1,0 +1,14 @@
+{
+    "name": "tru/framework1",
+    "description": "php2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "truhin-andrei",
+            "email": "truhin-andrei@bk.ru"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

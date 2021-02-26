@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * Main template
+ * ===============
+ * $title - header
+ * $content - HTML page
+ */
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+
+	{% include "header.twig" %}
+
+	<div id="menu">
+		<a href="index.php">Read the text</a> |
+		<a href="index.php?c=page&act=edit">Edit the text</a>
+	</div>
+
+	<div id="content">
+		{{content}}
+	</div>
+
+	{% include "footer.twig" %}
